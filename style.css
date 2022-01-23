@@ -1,0 +1,123 @@
+
+body {
+    background-color: #1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.btn-orng-black {
+    background-color: #f90;
+    color: #000;
+}
+
+.btn-black-orng {
+    background-color: #000;
+    color: #f90;
+}
+
+.form-header {
+
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+    background-color: #1b1b1b;
+    border: 1px solid #555;
+    color: white;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    background-color: #1b1b1b;
+    border: 1px solid #fff;
+    color: white;
+}
+
+h1, h5 {
+    text-align: center
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    color: #898787
+}
+
+form {
+    width: 60%;
+    margin: 50px auto;
+
+}
+
+.progress {
+    width: 40%;
+    margin: 50px auto;
+    border: 1px solid #555;
+}
+
+.progress-bar {
+    width: 25%;
+}
+
+.outer-div {
+    width: 40%;
+    margin: 10px auto 60px auto;
+    border: 1px solid #555;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group {
+    margin: 10% 0;
+}
+
+.logo-blocks {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hub {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+.hub span:first-child {
+    color: white;
+}
+
+.hub span:nth-child(2) {
+    background: #FF9900;
+    color: #000000;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+p {
+    margin: 10%;
+    word-break: break-all;
+    color: white;
+}
